@@ -11,7 +11,8 @@ const App = () => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const response = await fetch('/questions.json');
+        const response = await fetch(process.env.PUBLIC_URL + '/questions.json');
+
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
