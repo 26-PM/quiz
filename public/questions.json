@@ -273,6 +273,71 @@
       "question": "Given the list my_list = [1, 2, 3, 4, 5], what does my_list[-2:-5:-1] return?",
       "options": ["[5, 4, 3]", "[4, 3, 2]", "[4, 3]", "[]"],
       "answer": "[4, 3, 2]"
-    }
-  ]
+    },
+    {
+      "question": "Which of the following escape sequences is used to insert a tab space in Python strings?",
+      "options": ["\\t", "\\n", "\\a", "\\b"],
+      "answer": "\\t"
+  },
+  {
+      "question": "What is the main difference between IDLE and the Python interpreter?",
+      "options": [
+          "IDLE supports multiple languages",
+          "IDLE provides an integrated development environment with an interpreter and editor",
+          "Python interpreter is faster than IDLE",
+          "IDLE cannot run Python scripts"
+      ],
+      "answer": "IDLE provides an integrated development environment with an interpreter and editor"
+  },
+  {
+      "question": "Which of the following is a valid identifier in Python?",
+      "options": ["_myVar", "2var", "my-var", "None"],
+      "answer": "_myVar"
+  },
+  {
+      "question": "Which operator would you use to check if a specific value exists in a list?",
+      "options": ["in", "==", "is", "exists"],
+      "answer": "in"
+  },
+  {
+      "question": "Which of the following will return the index of a substring within a string in Python?",
+      "options": ["index()", "find()", "count()", "startswith()"],
+      "answer": "find()"
+  },
+  {
+      "question": "What will be the output of the following code: 'python'.capitalize()?",
+      "options": ["Python", "PYTHON", "PythOn", "python"],
+      "answer": "Python"
+  },
+  {
+      "question": "In a Python dictionary, what happens if you try to access a key that doesn’t exist?",
+      "options": [
+          "An error is raised",
+          "A default value is returned",
+          "A new key is added",
+          "None is returned"
+      ],
+      "answer": "An error is raised"
+  },
+  {
+      "question": "Which Python method is used to add elements at the end of a list?",
+      "options": ["insert()", "append()", "extend()", "pop()"],
+      "answer": "append()"
+  },
+  {
+      "question": "How can you sort a list of integers in descending order in Python?",
+      "options": [
+          "list.sort(reverse=False)",
+          "list.sort(reverse=True)",
+          "list.sort(ascending=True)",
+          "list.reverse()"
+      ],
+      "answer": "list.sort(reverse=True)"
+  },
+  {
+      "question": "What will be the output of the following code: max((1, 2, 3), (4, 5, 0), (7, 8, 9))?",
+      "options": ["(1, 2, 3)", "(7, 8, 9)", "(4, 5, 0)", "Error"],
+      "answer": "(7, 8, 9)"
+  }
+]
   
