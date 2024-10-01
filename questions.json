@@ -338,6 +338,36 @@
       "question": "What will be the output of the following code: max((1, 2, 3), (4, 5, 0), (7, 8, 9))?",
       "options": ["(1, 2, 3)", "(7, 8, 9)", "(4, 5, 0)", "Error"],
       "answer": "(7, 8, 9)"
-  }
-  ]
+  },
+  {
+    "question": "What is the output of this code: bool('')?",
+    "options": ["True", "False", "None", "Error"],
+    "answer": "False"
+},
+{
+    "question": "Which of the following methods will return a new list, leaving the original list unchanged?",
+    "options": ["append()", "reverse()", "sorted()", "remove()"],
+    "answer": "sorted()"
+},
+{
+    "question": "How can you generate a random integer between 5 and 15 using the random module?",
+    "options": ["random.randint(5, 15)", "random.randrange(5, 15)", "random.random(5, 15)", "random.choice([5, 15])"],
+    "answer": "random.randint(5, 15)"
+},
+{
+    "question": "In Python, which of the following statements is true about functions with default arguments?",
+    "options": [
+        "Default arguments must always come before non-default arguments",
+        "Default arguments must always come after non-default arguments",
+        "All arguments must be default arguments",
+        "Default arguments cannot be assigned within the function body"
+    ],
+    "answer": "Default arguments must always come after non-default arguments"
+},
+{
+    "question": "Which of the following is used to import a module in Python?",
+    "options": ["import", "include", "require", "load"],
+    "answer": "import"
+}
+]
   
