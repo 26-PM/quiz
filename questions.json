@@ -1,0 +1,278 @@
+[
+    {
+      "question": "What is the origin of Python?",
+      "options": ["Switzerland", "Netherlands", "Sweden", "USA"],
+      "answer": "Netherlands"
+    },
+    {
+      "question": "Which of the following is not a feature of Python?",
+      "options": ["Easy syntax", "Dynamic typing", "Compiled", "Interpreted"],
+      "answer": "Compiled"
+    },
+    {
+      "question": "What is the extension of a Python file?",
+      "options": [".py", ".java", ".c", ".txt"],
+      "answer": ".py"
+    },
+    {
+      "question": "Which of these is a reserved word in Python?",
+      "options": ["var", "public", "return", "private"],
+      "answer": "return"
+    },
+    {
+      "question": "What does the '\\n' escape sequence represent?",
+      "options": ["Newline", "Tab", "Space", "Null"],
+      "answer": "Newline"
+    },
+    {
+      "question": "IDLE in Python stands for?",
+      "options": [
+        "Integrated Development and Learning Environment",
+        "Integrated Deployment and Learning Environment",
+        "Integrated Debugging and Learning Environment",
+        "Interactive Development Language Environment"
+      ],
+      "answer": "Integrated Development and Learning Environment"
+    },
+    {
+      "question": "How do you declare a variable in Python?",
+      "options": ["var x = 5", "int x = 5", "x = 5", "x <- 5"],
+      "answer": "x = 5"
+    },
+    {
+      "question": "Which of the following is an immutable data type?",
+      "options": ["List", "Set", "Dictionary", "Tuple"],
+      "answer": "Tuple"
+    },
+    {
+      "question": "Which operator is used for exponentiation?",
+      "options": ["*", "**", "^", "//"],
+      "answer": "**"
+    },
+    {
+      "question": "Which of the following is used to check membership in a list?",
+      "options": ["in", "is", "of", "=="],
+      "answer": "in"
+    },
+    {
+      "question": "What is the output of: print(2**3)?",
+      "options": ["6", "8", "9", "4"],
+      "answer": "8"
+    },
+    {
+      "question": "Which control structure is used to execute a block of code multiple times?",
+      "options": ["if", "for", "else", "break"],
+      "answer": "for"
+    },
+    {
+      "question": "What is the keyword used to define a function in Python?",
+      "options": ["func", "def", "function", "define"],
+      "answer": "def"
+    },
+    {
+      "question": "How can you stop a loop prematurely in Python?",
+      "options": ["break", "continue", "return", "exit"],
+      "answer": "break"
+    },
+    {
+      "question": "Which of the following is a valid string method?",
+      "options": ["find()", "lookup()", "sort()", "reverse()"],
+      "answer": "find()"
+    },
+    {
+      "question": "Which method is used to convert a string to uppercase?",
+      "options": ["upper()", "uppercase()", "capitalize()", "title()"],
+      "answer": "upper()"
+    },
+    {
+      "question": "What is the output of: print('Hello'.lower())?",
+      "options": ["Hello", "hello", "HELLO", "HeLLo"],
+      "answer": "hello"
+    },
+    {
+      "question": "Which of these methods checks if all characters in a string are digits?",
+      "options": ["isdigit()", "isnumber()", "isnumeric()", "isalnum()"],
+      "answer": "isdigit()"
+    },
+    {
+      "question": "How can you join a list of strings into one string?",
+      "options": ["join()", "append()", "combine()", "concat()"],
+      "answer": "join()"
+    },
+    {
+      "question": "What does the isspace() method do?",
+      "options": [
+        "Checks if all characters are spaces",
+        "Replaces spaces with dashes",
+        "Splits a string at spaces",
+        "Removes spaces"
+      ],
+      "answer": "Checks if all characters are spaces"
+    },
+    {
+      "question": "Which method removes an item from a list in Python?",
+      "options": ["remove()", "delete()", "erase()", "drop()"],
+      "answer": "remove()"
+    },
+    {
+      "question": "How can you add an item to the end of a list?",
+      "options": ["append()", "extend()", "insert()", "add()"],
+      "answer": "append()"
+    },
+    {
+      "question": "Which of these is a mutable data type?",
+      "options": ["Tuple", "Set", "String", "Integer"],
+      "answer": "Set"
+    },
+    {
+      "question": "Which function returns the length of a list?",
+      "options": ["count()", "len()", "size()", "length()"],
+      "answer": "len()"
+    },
+    {
+      "question": "Which of these methods adds multiple items to a list?",
+      "options": ["append()", "extend()", "insert()", "concat()"],
+      "answer": "extend()"
+    },
+    {
+      "question": "What is the output of: print([1, 2, 3] + [4, 5])?",
+      "options": [
+        "[1, 2, 3, 4, 5]",
+        "[1, 2, 3, [4, 5]]",
+        "Error",
+        "None"
+      ],
+      "answer": "[1, 2, 3, 4, 5]"
+    },
+    {
+      "question": "How can you access the first element of a list?",
+      "options": ["list[0]", "list[1]", "list[-1]", "list[first]"],
+      "answer": "list[0]"
+    },
+    {
+      "question": "What is the result of: 10 // 3?",
+      "options": ["3.33", "3", "3.0", "4"],
+      "answer": "3"
+    },
+    {
+      "question": "What is the purpose of the 'break' statement?",
+      "options": [
+        "To terminate the loop",
+        "To skip an iteration",
+        "To pause the loop",
+        "To continue the loop"
+      ],
+      "answer": "To terminate the loop"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in Python?",
+      "options": ["catch", "handle", "try", "except"],
+      "answer": "try"
+    },
+    {
+      "question": "What is the correct syntax for defining a dictionary?",
+      "options": ["{key1: value1, key2: value2}", "[key1: value1, key2: value2]", "(key1: value1, key2: value2)", "None of the above"],
+      "answer": "{key1: value1, key2: value2}"
+    },
+    {
+      "question": "How can you delete a key-value pair from a dictionary?",
+      "options": ["del dict[key]", "remove dict[key]", "dict.pop(key)", "Both a and c"],
+      "answer": "Both a and c"
+    },
+    {
+      "question": "Which of the following methods returns all keys in a dictionary?",
+      "options": ["values()", "keys()", "items()", "get()"],
+      "answer": "keys()"
+    },
+    {
+      "question": "What will be the output of: len({1: 'a', 2: 'b', 3: 'c'})?",
+      "options": ["2", "3", "6", "None"],
+      "answer": "3"
+    },
+    {
+      "question": "What is the difference between a list and a dictionary?",
+      "options": [
+        "Lists store indexed data, dictionaries store key-value pairs",
+        "Lists are immutable, dictionaries are mutable",
+        "Lists are unordered, dictionaries are ordered",
+        "Lists use keys, dictionaries use indices"
+      ],
+      "answer": "Lists store indexed data, dictionaries store key-value pairs"
+    },
+    {
+      "question": "What is recursion in Python?",
+      "options": ["A function calling itself", "A loop inside a function", "A function returning multiple values", "A function that takes multiple arguments"],
+      "answer": "A function calling itself"
+    },
+    {
+      "question": "Which module is used to generate random numbers in Python?",
+      "options": ["math", "random", "numbers", "os"],
+      "answer": "random"
+    },
+    {
+      "question": "How do you import a module in Python?",
+      "options": ["#include 'module'", "import module", "use module", "load module"],
+      "answer": "import module"
+    },
+    {
+      "question": "What is the use of the 'math' module?",
+      "options": ["Provides mathematical functions", "Provides string functions", "Handles input/output operations", "Performs database operations"],
+      "answer": "Provides mathematical functions"
+    },
+    {
+      "question": "How can you install external Python packages?",
+      "options": ["install package_name", "import package_name", "pip install package_name", "load package_name"],
+      "answer": "pip install package_name"
+    },
+    {
+      "question": "What is a package in Python?",
+      "options": ["A directory of Python modules", "A function that returns multiple values", "A collection of classes", "A loop with multiple iterations"],
+      "answer": "A directory of Python modules"
+    },
+    {
+      "question": "Which of the following is a keyword argument?",
+      "options": ["name='John'", "'John'", "name: John", "'name'"],
+      "answer": "name='John'"
+    },
+    {
+      "question": "What is the scope of a variable inside a function?",
+      "options": ["Local", "Global", "External", "Static"],
+      "answer": "Local"
+    },
+    {
+      "question": "Which of the following can modify a list?",
+      "options": ["sort()", "index()", "copy()", "len()"],
+      "answer": "sort()"
+    },
+    {
+      "question": "Which of the following correctly accesses the first three elements of the list my_list = [100, 200, 300, 400, 500]?",
+      "options": ["my_list[0:3]", "my_list[1:4]", "my_list[:3]", "Both A and C"],
+      "answer": "Both A and C"
+    },
+    {
+      "question": "If my_list = ['apple', 'banana', 'cherry'], what does my_list[1:2] return?",
+      "options": ["['banana']", "['banana', 'cherry']", "['apple', 'banana']", "'banana'"],
+      "answer": "['banana']"
+    },
+    {
+      "question": "Which module can be used to create a temporary file in Python?",
+      "options": ["random", "tempfile", "os", "file"],
+      "answer": "tempfile"
+    },
+    {
+      "question": "What is the output of: [1, 2, 3] * 2?",
+      "options": ["[2, 4, 6]", "[1, 2, 3, 1, 2, 3]", "Error", "None"],
+      "answer": "[1, 2, 3, 1, 2, 3]"
+    },
+    {
+      "question": "Which of the following statements correctly accesses every second element of a list?",
+      "options": ["my_list[::1]", "my_list[1::2]", "my_list[::2]", "my_list[1:2]"],
+      "answer": "my_list[::2]"
+    },
+    {
+      "question": "Given the list my_list = [1, 2, 3, 4, 5], what does my_list[-2:-5:-1] return?",
+      "options": ["[5, 4, 3]", "[4, 3, 2]", "[4, 3]", "[]"],
+      "answer": "[4, 3, 2]"
+    }
+  ]
+  
