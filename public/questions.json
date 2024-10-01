@@ -221,8 +221,58 @@
     },
     {
       "question": "How can you install external Python packages?",
-      "options": ["install package", "pip install package", "download package", "None of the above"],
-      "answer": "pip install package"
+      "options": ["install package_name", "import package_name", "pip install package_name", "load package_name"],
+      "answer": "pip install package_name"
+    },
+    {
+      "question": "What is a package in Python?",
+      "options": ["A directory of Python modules", "A function that returns multiple values", "A collection of classes", "A loop with multiple iterations"],
+      "answer": "A directory of Python modules"
+    },
+    {
+      "question": "Which of the following is a keyword argument?",
+      "options": ["name='John'", "'John'", "name: John", "'name'"],
+      "answer": "name='John'"
+    },
+    {
+      "question": "What is the scope of a variable inside a function?",
+      "options": ["Local", "Global", "External", "Static"],
+      "answer": "Local"
+    },
+    {
+      "question": "Which of the following can modify a list?",
+      "options": ["sort()", "index()", "copy()", "len()"],
+      "answer": "sort()"
+    },
+    {
+      "question": "Which of the following correctly accesses the first three elements of the list my_list = [100, 200, 300, 400, 500]?",
+      "options": ["my_list[0:3]", "my_list[1:4]", "my_list[:3]", "Both A and C"],
+      "answer": "Both A and C"
+    },
+    {
+      "question": "If my_list = ['apple', 'banana', 'cherry'], what does my_list[1:2] return?",
+      "options": ["['banana']", "['banana', 'cherry']", "['apple', 'banana']", "'banana'"],
+      "answer": "['banana']"
+    },
+    {
+      "question": "Which module can be used to create a temporary file in Python?",
+      "options": ["random", "tempfile", "os", "file"],
+      "answer": "tempfile"
+    },
+    {
+      "question": "What is the output of: [1, 2, 3] * 2?",
+      "options": ["[2, 4, 6]", "[1, 2, 3, 1, 2, 3]", "Error", "None"],
+      "answer": "[1, 2, 3, 1, 2, 3]"
+    },
+    {
+      "question": "Which of the following statements correctly accesses every second element of a list?",
+      "options": ["my_list[::1]", "my_list[1::2]", "my_list[::2]", "my_list[1:2]"],
+      "answer": "my_list[::2]"
+    },
+    {
+      "question": "Given the list my_list = [1, 2, 3, 4, 5], what does my_list[-2:-5:-1] return?",
+      "options": ["[5, 4, 3]", "[4, 3, 2]", "[4, 3]", "[]"],
+      "answer": "[4, 3, 2]"
     }
   ]
   
