@@ -21,7 +21,7 @@ Welcome to the Python Quiz App! This is a simple interactive quiz application bu
 
 ## Demo
 
-You can view the live demo of the quiz app [here](https://26-pm.github.io/quiz-app).
+You can view the live demo of the quiz app [here](https://26-pm.github.io/quiz).
 
 ## Installation
 
